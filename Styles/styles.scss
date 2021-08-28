@@ -132,7 +132,7 @@ div.content-containers{
     }
 
     #main-content-container{
-        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/Styles/images/ella-don-0oqMvhc1ntw-unsplash.jpg');
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images/ella-don-0oqMvhc1ntw-unsplash.jpg');
         background-size: cover;
         min-height: 500px;
         width: 100%;
@@ -192,11 +192,11 @@ div.content-containers{
         flex-direction: column;
             
         &#pc-games-content-container{
-            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/Styles/images/mateo-vrbnjak-nCU4yq5xDEQ-unsplash.jpg');
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/mateo-vrbnjak-nCU4yq5xDEQ-unsplash.jpg');
         }
 
         &#console-games-content-container{
-            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/Styles/images/games-2453777_1920.jpg');
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/games-2453777_1920.jpg');
 
             img{
                 max-height: 150px;
