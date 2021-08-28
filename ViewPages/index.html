@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="/Styles/style.css" type='text/css'>
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div id="cover"></div>
+
+    <nav class="navbar navbar-expand-lg bg-dark">
+
+      <a class="navbar-brand" href="#">Logo</a>
+
+      <div class="collapse navbar-collapse" id="navigation-bar-container">
+        
+        <div class="navbar-nav">
+
+          <a class="nav-item nav-link active" onclick="blur(); scrollToSection('main-content-container'); return false">HOME <span class="sr-only">(current)</span></a>
+
+          <a class="nav-item nav-link" onclick="blur(); scrollToSection('about-content-container'); return false">ABOUT</a>
+
+          <a class="nav-item nav-link" onclick="blur(); scrollToSection('console-games-content-container'); return false">CONSOLE GAMES</a>
+
+          <a class="nav-item nav-link" onclick="blur(); scrollToSection('pc-games-content-container'); return false">PC GAMES</a>
+
+        </div>
+
+      </div>
+
+      <div class="navigation-mobile-button" onclick="showMobileNav($(this))">
+
+        <i class="fas fa-bars"></i>
+
+      </div>
+
+    </nav>
+
+    <ul id="mobile-navigation-menu" class="hidden-menu-dropdown">
+
+      <li>ABOUT</li>
+      <li>CONSOLE GAMES</li>
+      <li>PC GAMES</li>
+
+    </ul>
+
+    <div class="mainContentSections">
+  
+      <div id="main" class='content-containers'>
+  
+        <div class="row">
+  
+          <div class="col-xs-12" id='main-content-container'>
+
+            <div class="row">
+
+              <div class="main-content-header col-xs-12">
+
+                <h1 class="text-center">CHAMPIONS AREN'T BORN, THEY'RE MADE.</h1>
+
+                <h1 class="text-center">COME, SEE, AND PLAY!</h1>
+
+                <br/>
+                <h2 class="text-center">έλα να παίξεις</h2>
+
+                <br/>
+                <br/>
+
+                <div class="text-center navigation-buttons-container">
+
+                  <div class="navigation-buttons" onclick="blur(); scrollToSection('about-content-container'); return false">About</div>
+
+                  <div class="navigation-buttons" onclick="blur(); scrollToSection('console-games-content-container'); return false">Games</div>
+
+                </div>
+                
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+  
+      </div>
+
+      <div id="about" class='content-containers'>
+
+        <div class="row">
+
+          <div class="col-xs-12" id='about-content-container'>
+
+            <div class="row">
+
+              <div class="col-xs-12">
+
+                <h4 class='w-100 text-md text-center'>24 W ELBERT ST. </h4>
+                <h4 class='w-100 text-md text-center'>INDIANAPOLIS, INDIANA, 46217</h4>
+
+                <br/>
+                <br/>
+
+                <h4 class='w-100 text-center'>MON: CLOSED</h4>
+                <h4 class='w-100 text-center'>TUES - THUR: 4:00 PM - 12:00 AM</h4>
+                <h4 class='w-100 text-center'>SAT - SUN: 12:00 PM - 12:00 AM</h4>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+      
+      <div id="console-games" class='content-containers'>
+
+        <div class="row">
+
+          <div class="col-xs-12 games-content-container" id='console-games-content-container'>
+
+              <div data-console="ps5" class="console ps5 text-center"><img src="/Styles/images/ps5logo.jpg" alt="ps5">
+                
+                <div id="ps5-content" class="hidden console-content">
+                  
+                  <p>This is a ps5. It's overpriced and no one has one</p>
+                  
+                  <ul>
+                    <li>Horizon Zero Dawn I/II</li>
+                    <li>Forza</li>
+                    <li>The Last of Us I/II</li>
+                  </ul>
+                
+                  <button><i class="fas fa-chevron-left"></i>&nbsp;CONSOLES</button>
+
+                </div>
+              
+              </div>
+              
+              <div data-console="xbox" class="console xbox text-center"><img src="/Styles/images/seriesx.jpg" alt="seriesx">
+              
+                <div id="xbox-content" class="hidden console-content">
+
+                  <p>This is a xbox. It is not overpriced and more people have them</p>
+
+                  <ul>
+
+                    <li>Halo Series</li>
+                    <li>Gears Of War</li>
+                    <li>Xbox Game Pass</li>
+
+                  </ul>
+
+                  <button><i class="fas fa-chevron-left"></i>&nbsp;CONSOLES</button>
+
+                </div>
+
+              </div>
+              
+              <div data-console="nintendo-switch" class="console nintendoswitch text-center"><img src="/Styles/images/nintendoswitchlogo.jpg" alt="switch">
+                
+                <div id="switch-content" class="hidden console-content">
+
+                  <p>Nintendo Switch Games</p>
+
+                  <ul>
+
+                    <li>Super Smash Brothers</li>
+                    <li>The Legend of Zelda Series</li>
+                    <li>Super Mario Based Games</li>
+
+                  </ul>
+
+                  <button><i class="fas fa-chevron-left"></i>&nbsp;CONSOLES</button>
+
+                </div>
+
+              </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div id="pc-games" class='content-containers'>
+
+        <div class="row">
+
+          <div class="col-xs-12 games-content-container" id='pc-games-content-container'>
+
+              <div class="PC-games-list">PC GAMES</div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+</body>
+
+</html>
+
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script>
+
+  var initialDropdown = true;
+
+  //function using jquery to scroll
+  $(window).on('load', function() {
+    MaximizeImageHeight();
+    $('#cover').fadeOut(2000);
+    $('#console-games #console-games-content-container div').on("click", function(){
+      var mElementClicked = $(this);
+      var mSelectedConsole = mElementClicked.data("console");
+
+      //generate switch here that renders different functions to hide/show content
+      switch(mSelectedConsole){
+        case "ps5":
+          displayPs5Data(mSelectedConsole);
+          break;
+        
+        case "xbox":
+          displayXboxData(mSelectedConsole);
+          break;
+        
+        case "nintendo-switch":
+          displaySwitchData(mSelectedConsole);
+          break;
+      }
+    })
+  
+    $("#console-games #console-games-content-container div button").on("click touchstart", function(){
+        setTimeout(() => {
+          $(this).hide(400);
+          $(this).siblings().hide(400);
+          $("div.console").show(400);
+        }, 500); 
+      })
+  });
+
+  //function that gets screen height and applies max height to main image
+  function MaximizeImageHeight(){
+    var mHeight = screen.height;
+    $("#main-content-container").css('height', mHeight);
+  }
+
+  function scrollToSection(pTargetToScrollTo){
+    var mTarget = $("div#" + pTargetToScrollTo);
+    $('html,body').animate({scrollTop: mTarget.offset().top},'slow');
+  }
+
+  function showMobileNav(pElement){
+    if(initialDropdown == true){
+      $("#mobile-navigation-menu").removeClass();
+      $("#mobile-navigation-menu").addClass("active-menu-dropdown");
+      initialDropdown = false;
+    }
+    else{
+      $("#mobile-navigation-menu").removeClass();
+      $("#mobile-navigation-menu").addClass('hidden-menu-dropdown');
+      initialDropdown = true;
+    }
+  }
+
+  function displayPs5Data(pConsole){
+    $("#console-games-content-container div[data-console='" + pConsole + "']").siblings().hide(400);
+    $("#ps5-content").show(400);
+    $("#ps5-content").children().show(400);
+  }
+
+  function displayXboxData(pConsole){
+    $("#console-games-content-container div[data-console='" + pConsole + "']").siblings().hide(400);
+    $("#xbox-content").show(400);
+    $("#xbox-content").children().show(400);
+  }
+
+  function displaySwitchData(pConsole){
+    $("#console-games-content-container div[data-console='" + pConsole + "']").siblings().hide(400);
+    $("#switch-content").show(400);
+    $("#switch-content").children().show(400);
+  }
+
+</script>
