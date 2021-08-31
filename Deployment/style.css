@@ -189,5 +189,9 @@ div.content-containers .games-content-container#console-games-content-container 
 div.content-containers .games-content-container#console-games-content-container .console-content {
   padding: 0px 40px;
 }
+div.content-containers .games-content-container#console-games-content-container .console-content ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
 
 /*# sourceMappingURL=style.css.map */
