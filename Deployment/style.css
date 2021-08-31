@@ -193,5 +193,12 @@ div.content-containers .games-content-container#console-games-content-container 
   list-style-type: none;
   padding-left: 0px;
 }
+div.content-containers .games-content-container#console-games-content-container .console-content button {
+  margin-bottom: 20px;
+  padding: 5px 15px;
+  border-radius: 8px;
+  color: #1FFFFF;
+  background: #343A40;
+}
 
 /*# sourceMappingURL=style.css.map */
