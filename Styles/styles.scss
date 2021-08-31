@@ -205,6 +205,11 @@ div.content-containers{
 
             .console-content{
                 padding: 0px 40px;
+
+                ul{
+                    list-style-type: none;
+                    padding-left: 0px;
+                }
             }
         }
     }
