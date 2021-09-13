@@ -39,26 +39,6 @@ body {
   display: none;
 }
 
-.hidden-menu-dropdown {
-  display: none;
-}
-@media screen and (max-width: 400px) {
-  .hidden-menu-dropdown {
-    max-height: 0;
-    transition: max-height 0.25s ease-out;
-    overflow: hidden;
-  }
-}
-
-.active-menu-dropdown {
-  margin-top: 60px;
-  max-height: 500px;
-  transition: max-height 0.75s ease-in;
-  position: fixed;
-  right: 5px;
-  top: -3px;
-}
-
 .navbar {
   position: fixed;
   width: 100%;
@@ -68,6 +48,13 @@ body {
 }
 .navbar .navbar-brand {
   padding: 0px;
+}
+@media screen and (max-width: 400px) {
+  .navbar .navbar-brand {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
 }
 .navbar #navbar-brand-image {
   height: 75px;
