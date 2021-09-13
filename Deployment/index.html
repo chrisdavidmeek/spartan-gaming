@@ -127,7 +127,7 @@
       </div>
       
       <div id="console-games-spacer"></div>
-      
+
       <div id="console-games" class='content-containers'>
 
         <div class="row">
@@ -257,10 +257,10 @@
   
     $("#console-games #console-games-content-container div button").on("click touchstart", function(){
         setTimeout(() => {
-          $(this).hide(400);
-          $(this).siblings().hide(400);
-          $("div.console").show(400);
-          
+          $(this).hide();
+          $(this).siblings().hide();
+          $("div.console").show();
+          scrollToSection('console-games-spacer'); 
         }, 500); 
       })
   });
