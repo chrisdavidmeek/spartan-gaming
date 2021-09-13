@@ -271,7 +271,7 @@
 
   function scrollToSection(pTargetToScrollTo){
     var mTarget = $("div#" + pTargetToScrollTo);
-    $('html,body').animate({scrollTop: mTarget.offset({top: 20, left: 0}).top},'slow');
+    $('html,body').animate({scrollTop: mTarget.offset().top},'slow');
   }
 
   function showMobileNav(pElement){
