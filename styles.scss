@@ -121,6 +121,11 @@ body{
         border-bottom: 1px solid white;
     }
 }
+
+#console-games-spacer{
+    margin-bottom: 50px; 
+}
+
 div.content-containers{
     min-height: 100px;
     text-shadow:
@@ -192,10 +197,6 @@ div.content-containers{
             color: #a9a9a9;
             font-size: large;
         }
-    }
-
-    #console-games-spacer{
-        margin-bottom: 50px; 
     }
 
     .games-content-container{
