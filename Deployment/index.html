@@ -257,9 +257,9 @@
   
     $("#console-games #console-games-content-container div button").on("click touchstart", function(){
         setTimeout(() => {
-          $(this).hide();
-          $(this).siblings().hide();
-          $("div.console").show();
+          $(this).hide(400);
+          $(this).siblings().hide(400);
+          $("div.console").show(400);
           scrollToSection('console-games-spacer'); 
         }, 500); 
       })
