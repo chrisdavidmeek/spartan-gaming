@@ -8,6 +8,10 @@
     background: black;
 }
 
+.mh-10{
+    margin: 0px 10px;
+}
+
 html, body {
     overflow-x: hidden;
 }
@@ -62,6 +66,16 @@ body{
     width: 100%;
     top: 0;
     border-bottom: 1px solid #1FFFFF;
+    padding: 0px;
+    
+    .navbar-brand{
+        padding: 0px;
+    }
+
+    #navbar-brand-image{
+        height: 75px;
+        width: auto;
+    }
 
     a.nav-item{
         color: #fff;
