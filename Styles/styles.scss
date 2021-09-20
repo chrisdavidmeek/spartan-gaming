@@ -44,7 +44,6 @@ body{
 }
 
 .navbar{
-    position: fixed;
     width: 100%;
     top: 0;
     border-bottom: 1px solid #1FFFFF;
@@ -123,7 +122,7 @@ div.content-containers{
     border-top: 2px solid #1FFFFF;
     border-bottom: 2px solid #1FFFFF;
    
-    h1, h2, h3, h4{
+    h1, h2, h3, h4, h6{
         color: #fff;
     }
 
@@ -190,24 +189,42 @@ div.content-containers{
 
     .games-content-container{
         background-size: cover;
-        min-height: 500px;
+        min-height: 350px;
         width: 100%;
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
         margin: 0px 10px;
         color: white;
-        flex-direction: column;
-            
+        
+        @media screen and (max-width: 400px){
+            flex-direction: column;
+            justify-content: center;
+        }
+
         &#pc-games-content-container{
             background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/mateo-vrbnjak-nCU4yq5xDEQ-unsplash.jpg');
+        
+                .pc-entity{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    border: 2px solid #fff;
+                    border-radius: 4px;
+                    padding: 10px 20px;
+
+                    img{
+                        max-height: 150px;
+                        width: auto;
+                    }
+                }
         }
 
         &#console-games-content-container{
             background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/games-2453777_1920.jpg');
             
             img{    
-                max-height: 150px;
+                min-height: 150px;
                 max-width: 266px;
             }
 
