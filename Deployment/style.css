@@ -106,7 +106,8 @@ body {
 div.content-containers {
   min-height: 100px;
   text-shadow: -2px 4px 4px #091243, 0 0 10px #00D0FF, inset 1px 1px 1px white;
-  border: 2px solid #1FFFFF;
+  border-top: 2px solid #1FFFFF;
+  border-bottom: 2px solid #1FFFFF;
 }
 div.content-containers h1, div.content-containers h2, div.content-containers h3, div.content-containers h4 {
   color: #fff;
