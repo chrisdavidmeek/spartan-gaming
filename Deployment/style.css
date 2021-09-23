@@ -8,6 +8,11 @@
   background: black;
 }
 
+.flex-vcenter {
+  display: flex;
+  align-items: center;
+}
+
 .mh-10 {
   margin: 0px 10px;
 }
@@ -96,6 +101,10 @@ body {
   font-size: 12px;
   padding: 10px;
   border-bottom: 1px solid white;
+}
+
+#console-games-spacer {
+  margin-bottom: 50px;
 }
 
 div.content-containers {
