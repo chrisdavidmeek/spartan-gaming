@@ -238,8 +238,9 @@ div.content-containers{
             background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/games-2453777_1920.jpg');
             
             img{    
+                max-height: 150px;
                 min-height: 150px;
-                max-width: 266px;
+                max-width: 257px;
             }
 
             .console-content{
@@ -254,7 +255,7 @@ div.content-containers{
                     margin-bottom: 20px;
                     padding: 5px 15px;
                     border-radius: 8px;
-                    color: #1FFFFF;
+                    color: #FF3131;
                     background: #343A40;
                 }
             }
@@ -319,7 +320,7 @@ div.content-containers{
     h4, h5{
         color: #ff3131;
     }
-    
+
     h6{
         font-size: 10px;
         letter-spacing: 1.5px;
