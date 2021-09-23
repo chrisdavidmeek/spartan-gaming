@@ -312,14 +312,23 @@ div.content-containers{
   .flip-card-front {
     background-color: #bbb;
     color: black;
+    overflow: hidden;
+
+    img{
+        object-fit: cover;
+        width: 375px;
+        height: 500px;
+    }
   }
   
   .flip-card-back {
     background-color: #2980b9;
     color: white;
     transform: rotateY(180deg);
+    padding: 0px 10px;
 
     h6{
         font-size: 10px;
+        letter-spacing: 1.5px;
     }
   }

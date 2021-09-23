@@ -284,15 +284,23 @@ div.content-containers .games-content-container#console-games-content-container 
 .flip-card-front {
   background-color: #bbb;
   color: black;
+  overflow: hidden;
+}
+.flip-card-front img {
+  object-fit: cover;
+  width: 375px;
+  height: 500px;
 }
 
 .flip-card-back {
   background-color: #2980b9;
   color: white;
   transform: rotateY(180deg);
+  padding: 0px 10px;
 }
 .flip-card-back h6 {
   font-size: 10px;
+  letter-spacing: 1.5px;
 }
 
 /*# sourceMappingURL=style.css.map */
