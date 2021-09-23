@@ -23,6 +23,15 @@
     justify-content: center;
     align-items: center;
 }
+
+.ml-md {
+    margin-left: 15px;
+}
+
+.mr-md {
+    margin-right: 15px;
+}
+
 .mb-md{
     margin-bottom: 15px;
 }
@@ -69,7 +78,7 @@ body{
 .navbar{
     width: 100%;
     top: 0;
-    border-bottom: 1px solid #1FFFFF;
+    border-bottom: 1px solid #ff3131;
     padding: 0px;
     
     .navbar-brand{
@@ -99,23 +108,6 @@ body{
     #navigation-bar-container{
         justify-content: flex-end;
     }
-
-    .navigation-mobile-button{
-        i {
-            color: #1cb100;
-        }
-        margin-right: 15px;
-        display: none;
-
-        @media screen and (max-width: 400px){
-            display: block;
-        }
-    }
-
-    .navigation-mobile-button:hover{
-        color: white;
-        transition: 250ms;
-    }
 }
 
 #mobile-navigation-menu{
@@ -138,12 +130,8 @@ body{
 
 div.content-containers{
     min-height: 100px;
-    text-shadow:
-    -2px 4px 4px #091243, 
-    0 0 10px #00D0FF,
-    inset 1px 1px 1px white;
-    border-top: 2px solid #1FFFFF;
-    border-bottom: 2px solid #1FFFFF;
+    border-top: 2px solid #ff3131;
+    border-bottom: 2px solid #ff3131;
    
     h1, h2, h3, h4, h6{
         color: #fff;
@@ -307,6 +295,7 @@ div.content-containers{
     height: 100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
+    border-radius: 5%;
   }
   
   .flip-card-front {
@@ -322,11 +311,15 @@ div.content-containers{
   }
   
   .flip-card-back {
-    background-color: #2980b9;
+    background-color: #343A40;
     color: white;
     transform: rotateY(180deg);
     padding: 0px 10px;
 
+    h4, h5{
+        color: #ff3131;
+    }
+    
     h6{
         font-size: 10px;
         letter-spacing: 1.5px;
