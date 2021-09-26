@@ -44,6 +44,10 @@
   margin: 0px 10px;
 }
 
+.ph-lg {
+  padding: 0px 30px;
+}
+
 html, body {
   overflow-x: hidden;
 }
@@ -246,6 +250,11 @@ div.content-containers .games-content-container#console-games-content-container 
   height: 300px;
   perspective: 1000px;
 }
+@media screen and (max-width: 400px) {
+  .flip-card {
+    margin: 10px 0px;
+  }
+}
 
 .flip-card-inner {
   position: relative;
@@ -261,6 +270,11 @@ div.content-containers .games-content-container#console-games-content-container 
   transform: rotateY(180deg);
 }
 
+@media screen and (max-width: 400px) {
+  .footer-info-columns {
+    margin: 20px;
+  }
+}
 .footer-info-columns div {
   margin: 0px 20px;
 }

@@ -44,6 +44,9 @@
     margin: 0px 10px;
 }
 
+.ph-lg{
+    padding: 0px 30px;
+}
 html, body {
     overflow-x: hidden;
 }
@@ -268,6 +271,10 @@ div.content-containers{
     width: 300px;
     height: 300px;
     perspective: 1000px;
+
+    @media screen and (max-width: 400px){
+        margin: 10px 0px;
+    }
   }
   
   .flip-card-inner {
@@ -285,6 +292,9 @@ div.content-containers{
   }
 
   .footer-info-columns{
+    @media screen and (max-width: 400px){
+        margin: 20px;
+    }
       div{
           margin: 0px 20px;
       }
