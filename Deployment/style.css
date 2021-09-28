@@ -60,15 +60,11 @@ html, body {
 body {
   background: #343A40;
   position: relative;
-}
-
-.row {
-  justify-content: center;
+  font-family: "Libre Franklin", sans-serif;
 }
 
 .col-xs-12 {
-  margin-left: 5px;
-  margin-right: 5px;
+  width: 100%;
 }
 
 .hidden {
@@ -275,8 +271,8 @@ div.content-containers .games-content-container#console-games-content-container 
     margin: 20px;
   }
 }
-.footer-info-columns div {
-  margin: 0px 20px;
+.footer-info-columns h6, .footer-info-columns span {
+  color: #fff;
 }
 
 .flip-card-front, .flip-card-back {
@@ -311,6 +307,12 @@ div.content-containers .games-content-container#console-games-content-container 
 .flip-card-back h6 {
   font-size: 10px;
   letter-spacing: 1.5px;
+}
+
+.divider {
+  border-bottom: 1px solid #fff;
+  margin-left: 25%;
+  width: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -47,6 +47,7 @@
 .ph-lg{
     padding: 0px 30px;
 }
+
 html, body {
     overflow-x: hidden;
 }
@@ -62,16 +63,12 @@ html, body {
 
 body{
     background: #343A40;
-    position: relative
-}
-
-.row{
-    justify-content: center;
+    position: relative;
+    font-family: 'Libre Franklin', sans-serif;
 }
 
 .col-xs-12{
-    margin-left: 5px;
-    margin-right: 5px;
+    width: 100%;
 }
 
 .hidden{
@@ -295,9 +292,11 @@ div.content-containers{
     @media screen and (max-width: 400px){
         margin: 20px;
     }
-      div{
-          margin: 0px 20px;
-      }
+    
+    h6, span {
+        color: #fff;
+    }
+    
   }
   
   .flip-card-front, .flip-card-back {
@@ -335,4 +334,10 @@ div.content-containers{
         font-size: 10px;
         letter-spacing: 1.5px;
     }
+  }
+
+  .divider{
+      border-bottom: 1px solid #fff;
+      margin-left: 25%;
+      width: 50%;
   }
