@@ -315,4 +315,10 @@ div.content-containers .games-content-container#console-games-content-container 
   width: 50%;
 }
 
+@media screen and (max-width: 400px) {
+  #contact-info {
+    margin-top: 10px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -341,3 +341,9 @@ div.content-containers{
       margin-left: 25%;
       width: 50%;
   }
+
+  #contact-info{
+    @media screen and (max-width: 400px){
+        margin-top: 10px;
+    }
+  }
