@@ -80,7 +80,7 @@ body {
 .navbar .navbar-brand {
   padding: 0px;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .navbar .navbar-brand {
     display: flex;
     justify-content: space-evenly;
@@ -129,7 +129,7 @@ div.content-containers h1, div.content-containers h2, div.content-containers h3,
 div.content-containers h1 {
   font-size: 16px;
 }
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 450px) {
   div.content-containers h1 {
     font-weight: 700;
     font-size: 64px;
@@ -145,7 +145,7 @@ div.content-containers #main-content-container {
   justify-content: center;
   align-items: center;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   div.content-containers #main-content-container {
     background-position-x: center;
   }
@@ -166,7 +166,7 @@ div.content-containers #main-content-container .navigation-buttons-container .na
   border: 1px solid white;
   border-radius: 5px;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   div.content-containers #main-content-container .navigation-buttons-container .navigation-buttons {
     margin: 0px 10px;
   }
@@ -193,7 +193,7 @@ div.content-containers .games-content-container {
   margin: 0px 10px;
   color: white;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   div.content-containers .games-content-container {
     flex-direction: column;
     justify-content: center;
@@ -246,7 +246,7 @@ div.content-containers .games-content-container#console-games-content-container 
   height: 300px;
   perspective: 1000px;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .flip-card {
     margin: 10px 0px;
   }
@@ -266,7 +266,7 @@ div.content-containers .games-content-container#console-games-content-container 
   transform: rotateY(180deg);
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .footer-info-columns {
     margin: 20px;
   }
@@ -315,7 +315,7 @@ div.content-containers .games-content-container#console-games-content-container 
   width: 50%;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   #contact-info {
     margin-top: 10px;
   }
