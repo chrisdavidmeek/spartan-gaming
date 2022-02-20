@@ -9,19 +9,33 @@
 }
 
 .flex-vcenter {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .flex-hcenter {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .flex-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .ml-md {
@@ -48,7 +62,8 @@
   padding: 0px 30px;
 }
 
-html, body {
+html,
+body {
   overflow-x: hidden;
 }
 
@@ -58,7 +73,7 @@ html, body {
 }
 
 body {
-  background: #343A40;
+  background: #343a40;
   position: relative;
   font-family: "Libre Franklin", sans-serif;
 }
@@ -77,37 +92,51 @@ body {
   border-bottom: 1px solid #ff3131;
   padding: 0px;
 }
+
 .navbar .navbar-brand {
   padding: 0px;
 }
-@media screen and (max-width: 450px) {
+
+@media screen and (max-width: 400px) {
   .navbar .navbar-brand {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
+
 .navbar #navbar-brand-image {
   height: 75px;
   width: auto;
 }
+
 .navbar a.nav-item {
   color: #fff;
   letter-spacing: 1.5px;
   font-size: small;
 }
+
 .navbar a:hover {
   cursor: pointer;
 }
+
 .navbar #navigation-bar-container {
-  justify-content: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 #mobile-navigation-menu li {
   text-align: right;
   list-style-type: none;
   margin: 10px 0px;
-  background-color: #343A40;
+  background-color: #343a40;
   color: white;
   font-size: 12px;
   padding: 10px;
@@ -123,39 +152,61 @@ div.content-containers {
   border-top: 2px solid #ff3131;
   border-bottom: 2px solid #ff3131;
 }
-div.content-containers h1, div.content-containers h2, div.content-containers h3, div.content-containers h4, div.content-containers h6 {
+
+div.content-containers h1,
+div.content-containers h2,
+div.content-containers h3,
+div.content-containers h4,
+div.content-containers h6 {
   color: #fff;
 }
+
 div.content-containers h1 {
   font-size: 16px;
 }
-@media screen and (min-width: 450px) {
+
+@media screen and (min-width: 400px) {
   div.content-containers h1 {
     font-weight: 700;
     font-size: 64px;
     letter-spacing: 8px;
   }
 }
+
 div.content-containers #main-content-container {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("/images/ella-don-0oqMvhc1ntw-unsplash.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/images/ella-don-0oqMvhc1ntw-unsplash.jpg");
   background-size: cover;
   min-height: 500px;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
-@media screen and (max-width: 450px) {
+
+@media screen and (max-width: 400px) {
   div.content-containers #main-content-container {
     background-position-x: center;
   }
 }
+
 div.content-containers #main-content-container .navigation-buttons-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-evenly;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   width: 25%;
   margin-left: 37.5%;
 }
+
 div.content-containers #main-content-container .navigation-buttons-container .navigation-buttons {
   color: white;
   background-color: black;
@@ -166,87 +217,127 @@ div.content-containers #main-content-container .navigation-buttons-container .na
   border: 1px solid white;
   border-radius: 5px;
 }
-@media screen and (max-width: 450px) {
+
+@media screen and (max-width: 400px) {
   div.content-containers #main-content-container .navigation-buttons-container .navigation-buttons {
     margin: 0px 10px;
   }
 }
+
 div.content-containers #main-content-container .navigation-buttons-container .navigation-buttons:hover {
   cursor: pointer;
 }
+
 div.content-containers #about-content-container {
   background-color: black;
   margin: 0px 10px;
   padding: 40px 80px;
 }
+
 div.content-containers #about-content-container h4 {
   color: #a9a9a9;
   font-size: large;
 }
+
 div.content-containers .games-content-container {
   background-size: cover;
   min-height: 350px;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 0px 10px;
   color: white;
 }
-@media screen and (max-width: 450px) {
+
+@media screen and (max-width: 400px) {
   div.content-containers .games-content-container {
-    flex-direction: column;
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
+
 div.content-containers .games-content-container#pc-games-content-container {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/images/mateo-vrbnjak-nCU4yq5xDEQ-unsplash.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/mateo-vrbnjak-nCU4yq5xDEQ-unsplash.jpg");
 }
+
 div.content-containers .games-content-container#pc-games-content-container .pc-entity {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   border: 2px solid #fff;
   border-radius: 4px;
   padding: 10px 20px;
 }
+
 div.content-containers .games-content-container#pc-games-content-container .pc-entity img {
   max-height: 150px;
   width: auto;
 }
+
+div.content-containers .games-content-container#sgl-shop-content-container {
+  min-height: 150px;
+}
+
 div.content-containers .games-content-container#console-games-content-container {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/images/games-2453777_1920.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/games-2453777_1920.jpg");
 }
+
 div.content-containers .games-content-container#console-games-content-container img {
   max-height: 150px;
   min-height: 150px;
   max-width: 257px;
 }
+
 div.content-containers .games-content-container#console-games-content-container .console-content {
   padding: 0px 40px;
 }
+
 div.content-containers .games-content-container#console-games-content-container .console-content ul {
   list-style-type: none;
   padding-left: 0px;
 }
+
 div.content-containers .games-content-container#console-games-content-container .console-content button {
   margin-bottom: 20px;
   padding: 5px 15px;
   border-radius: 8px;
-  color: #FF3131;
-  background: #343A40;
+  color: #ff3131;
+  background: #343a40;
 }
 
 .flip-card {
   background-color: transparent;
   width: 300px;
   height: 300px;
-  perspective: 1000px;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
 }
-@media screen and (max-width: 450px) {
+
+@media screen and (max-width: 400px) {
   .flip-card {
     margin: 10px 0px;
   }
@@ -257,25 +348,34 @@ div.content-containers .games-content-container#console-games-content-container 
   width: 100%;
   height: 100%;
   text-align: center;
+  -webkit-transition: -webkit-transform 0.6s;
+  transition: -webkit-transform 0.6s;
   transition: transform 0.6s;
-  transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: transform 0.6s, -webkit-transform 0.6s;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 400px) {
   .footer-info-columns {
     margin: 20px;
   }
 }
-.footer-info-columns h6, .footer-info-columns span {
+
+.footer-info-columns h6,
+.footer-info-columns span {
   color: #fff;
 }
 
-.flip-card-front, .flip-card-back {
+.flip-card-front,
+.flip-card-back {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -289,21 +389,27 @@ div.content-containers .games-content-container#console-games-content-container 
   color: black;
   overflow: hidden;
 }
+
 .flip-card-front img {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   width: 375px;
   height: 500px;
 }
 
 .flip-card-back {
-  background-color: #343A40;
+  background-color: #343a40;
   color: white;
-  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
   padding: 0px 10px;
 }
-.flip-card-back h4, .flip-card-back h5 {
+
+.flip-card-back h4,
+.flip-card-back h5 {
   color: #ff3131;
 }
+
 .flip-card-back h6 {
   font-size: 10px;
   letter-spacing: 1.5px;
@@ -315,10 +421,9 @@ div.content-containers .games-content-container#console-games-content-container 
   width: 50%;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 400px) {
   #contact-info {
     margin-top: 10px;
   }
 }
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=styles.css.map */
