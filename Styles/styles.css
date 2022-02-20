@@ -13,8 +13,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .flex-hcenter {
@@ -22,8 +22,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .flex-center {
@@ -31,11 +31,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .ml-md {
@@ -103,11 +103,11 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: space-evenly;
-    -ms-flex-pack: space-evenly;
-    justify-content: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
@@ -128,8 +128,8 @@ body {
 
 .navbar #navigation-bar-container {
   -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 #mobile-navigation-menu li {
@@ -174,16 +174,8 @@ div.content-containers h1 {
 }
 
 div.content-containers #main-content-container {
-  background-image: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(0, 0, 0, 0.6)),
-      to(rgba(0, 0, 0, 0.6))
-    ),
-    url("/images/ella-don-0oqMvhc1ntw-unsplash.jpg");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("/images/ella-don-0oqMvhc1ntw-unsplash.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("/images/stockImage1.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/images/stockImage1.jpg");
   background-size: cover;
   min-height: 500px;
   width: 100%;
@@ -191,11 +183,11 @@ div.content-containers #main-content-container {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 @media screen and (max-width: 400px) {
@@ -209,16 +201,13 @@ div.content-containers #main-content-container .navigation-buttons-container {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   width: 25%;
   margin-left: 37.5%;
 }
 
-div.content-containers
-  #main-content-container
-  .navigation-buttons-container
-  .navigation-buttons {
+div.content-containers #main-content-container .navigation-buttons-container .navigation-buttons {
   color: white;
   background-color: black;
   /* Fallback color */
@@ -230,18 +219,12 @@ div.content-containers
 }
 
 @media screen and (max-width: 400px) {
-  div.content-containers
-    #main-content-container
-    .navigation-buttons-container
-    .navigation-buttons {
+  div.content-containers #main-content-container .navigation-buttons-container .navigation-buttons {
     margin: 0px 10px;
   }
 }
 
-div.content-containers
-  #main-content-container
-  .navigation-buttons-container
-  .navigation-buttons:hover {
+div.content-containers #main-content-container .navigation-buttons-container .navigation-buttons:hover {
   cursor: pointer;
 }
 
@@ -264,11 +247,11 @@ div.content-containers .games-content-container {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 0px 10px;
   color: white;
 }
@@ -277,49 +260,36 @@ div.content-containers .games-content-container {
   div.content-containers .games-content-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
 div.content-containers .games-content-container#pc-games-content-container {
-  background-image: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(0, 0, 0, 0.5)),
-      to(rgba(0, 0, 0, 0.5))
-    ),
-    url("/images/mateo-vrbnjak-nCU4yq5xDEQ-unsplash.jpg");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/images/mateo-vrbnjak-nCU4yq5xDEQ-unsplash.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/images/stockImage4.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/stockImage4.jpg");
 }
 
-div.content-containers
-  .games-content-container#pc-games-content-container
-  .pc-entity {
+div.content-containers .games-content-container#pc-games-content-container .pc-entity {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   border: 2px solid #fff;
   border-radius: 4px;
   padding: 10px 20px;
 }
 
-div.content-containers
-  .games-content-container#pc-games-content-container
-  .pc-entity
-  img {
+div.content-containers .games-content-container#pc-games-content-container .pc-entity img {
   max-height: 150px;
   width: auto;
 }
@@ -328,49 +298,30 @@ div.content-containers .games-content-container#sgl-shop-content-container {
   min-height: 150px;
 }
 
-div.content-containers
-  .games-content-container#console-games-content-container {
+div.content-containers .games-content-container#console-games-content-container {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
-  background-image: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(0, 0, 0, 0.5)),
-      to(rgba(0, 0, 0, 0.5))
-    ),
-    url("/images/games-2453777_1920.jpg");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/images/games-2453777_1920.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/images/stockImage3.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/stockImage3.jpg");
 }
 
-div.content-containers
-  .games-content-container#console-games-content-container
-  img {
+div.content-containers .games-content-container#console-games-content-container img {
   max-height: 150px;
   min-height: 150px;
   max-width: 257px;
 }
 
-div.content-containers
-  .games-content-container#console-games-content-container
-  .console-content {
+div.content-containers .games-content-container#console-games-content-container .console-content {
   padding: 0px 40px;
 }
 
-div.content-containers
-  .games-content-container#console-games-content-container
-  .console-content
-  ul {
+div.content-containers .games-content-container#console-games-content-container .console-content ul {
   list-style-type: none;
   padding-left: 0px;
 }
 
-div.content-containers
-  .games-content-container#console-games-content-container
-  .console-content
-  button {
+div.content-containers .games-content-container#console-games-content-container .console-content button {
   margin-bottom: 20px;
   padding: 5px 15px;
   border-radius: 8px;
@@ -383,7 +334,7 @@ div.content-containers
   width: 300px;
   height: 300px;
   -webkit-perspective: 1000px;
-  perspective: 1000px;
+          perspective: 1000px;
 }
 
 @media screen and (max-width: 400px) {
@@ -402,14 +353,14 @@ div.content-containers
   transition: transform 0.6s;
   transition: transform 0.6s, -webkit-transform 0.6s;
   -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d;
+          transform-style: preserve-3d;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .flip-card:hover .flip-card-inner {
   -webkit-transform: rotateY(180deg);
-  transform: rotateY(180deg);
+          transform: rotateY(180deg);
 }
 
 @media screen and (max-width: 400px) {
@@ -441,7 +392,7 @@ div.content-containers
 
 .flip-card-front img {
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   width: 375px;
   height: 500px;
 }
@@ -450,7 +401,7 @@ div.content-containers
   background-color: #343a40;
   color: white;
   -webkit-transform: rotateY(180deg);
-  transform: rotateY(180deg);
+          transform: rotateY(180deg);
   padding: 0px 10px;
 }
 
